@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceListener.Application", "PriceListener\src\PriceListener.Application\PriceListener.Application.csproj", "{6E4F70C1-9D65-46D8-9C88-E7216BA2C163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceListener.Domain", "PriceListener\src\PriceListener.Domain\PriceListener.Domain.csproj", "{7CDEB5CB-AC29-43E7-BC2E-30889470BDC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceListener.Infrastructure", "PriceListener\src\PriceListener.Infrastructure\PriceListener.Infrastructure.csproj", "{36315F3E-1931-43B8-88D2-995AC057E2AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceListener.Presentation", "PriceListener\src\PriceListener.Presentation\PriceListener.Presentation.csproj", "{08AA0CB7-03C5-4DCF-B607-C9013AF3E287}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base", "PriceListener\src\Base\Base.csproj", "{F067B178-8138-4A16-988F-69913B403334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceListener.Tests", "PriceListener\src\PriceListener.Tests\PriceListener.Tests.csproj", "{6C4064A5-9A6E-44C8-9FBD-E1EA2449051A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4F70C1-9D65-46D8-9C88-E7216BA2C163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4F70C1-9D65-46D8-9C88-E7216BA2C163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4F70C1-9D65-46D8-9C88-E7216BA2C163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4F70C1-9D65-46D8-9C88-E7216BA2C163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDEB5CB-AC29-43E7-BC2E-30889470BDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDEB5CB-AC29-43E7-BC2E-30889470BDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDEB5CB-AC29-43E7-BC2E-30889470BDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDEB5CB-AC29-43E7-BC2E-30889470BDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36315F3E-1931-43B8-88D2-995AC057E2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36315F3E-1931-43B8-88D2-995AC057E2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36315F3E-1931-43B8-88D2-995AC057E2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36315F3E-1931-43B8-88D2-995AC057E2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08AA0CB7-03C5-4DCF-B607-C9013AF3E287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AA0CB7-03C5-4DCF-B607-C9013AF3E287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AA0CB7-03C5-4DCF-B607-C9013AF3E287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AA0CB7-03C5-4DCF-B607-C9013AF3E287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F067B178-8138-4A16-988F-69913B403334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F067B178-8138-4A16-988F-69913B403334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F067B178-8138-4A16-988F-69913B403334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F067B178-8138-4A16-988F-69913B403334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4064A5-9A6E-44C8-9FBD-E1EA2449051A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4064A5-9A6E-44C8-9FBD-E1EA2449051A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4064A5-9A6E-44C8-9FBD-E1EA2449051A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4064A5-9A6E-44C8-9FBD-E1EA2449051A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03AD26CB-4EF2-4CCE-ADFF-3D114E53B927}
+	EndGlobalSection
+EndGlobal

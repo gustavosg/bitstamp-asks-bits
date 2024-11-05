@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PriceListener.Presentation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

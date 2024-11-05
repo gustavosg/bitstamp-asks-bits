@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base", "PriceSimulator\src\Base\Base.csproj", "{86CCC513-5E6B-4200-914F-C5C7EB42CC74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceSimulator.Application", "PriceSimulator\src\PriceSimulator.Application\PriceSimulator.Application.csproj", "{8F05451C-BFCF-4D12-BAC5-73CBCBB151B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceSimulator.Domain", "PriceSimulator\src\PriceSimulator.Domain\PriceSimulator.Domain.csproj", "{F285314E-3AA4-46AB-90FA-21D5A2109F64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceSimulator.Infrastructure", "PriceSimulator\src\PriceSimulator.Infrastructure\PriceSimulator.Infrastructure.csproj", "{F4272636-9FB8-4F6B-B5AB-1751DB191BF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceSimulator.Tests", "PriceSimulator\src\PriceSimulator.Tests\PriceSimulator.Tests.csproj", "{7604D147-3BCD-46C5-9D4D-F625B075BD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceSimulator.Presentation", "PriceSimulator\src\PriceSimulator.Presentation\PriceSimulator.Presentation.csproj", "{9D6AF458-6DD5-4BBC-85A4-306764430711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CCC513-5E6B-4200-914F-C5C7EB42CC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CCC513-5E6B-4200-914F-C5C7EB42CC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CCC513-5E6B-4200-914F-C5C7EB42CC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CCC513-5E6B-4200-914F-C5C7EB42CC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F05451C-BFCF-4D12-BAC5-73CBCBB151B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F05451C-BFCF-4D12-BAC5-73CBCBB151B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F05451C-BFCF-4D12-BAC5-73CBCBB151B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F05451C-BFCF-4D12-BAC5-73CBCBB151B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F285314E-3AA4-46AB-90FA-21D5A2109F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F285314E-3AA4-46AB-90FA-21D5A2109F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F285314E-3AA4-46AB-90FA-21D5A2109F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F285314E-3AA4-46AB-90FA-21D5A2109F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4272636-9FB8-4F6B-B5AB-1751DB191BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4272636-9FB8-4F6B-B5AB-1751DB191BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4272636-9FB8-4F6B-B5AB-1751DB191BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4272636-9FB8-4F6B-B5AB-1751DB191BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7604D147-3BCD-46C5-9D4D-F625B075BD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7604D147-3BCD-46C5-9D4D-F625B075BD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7604D147-3BCD-46C5-9D4D-F625B075BD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7604D147-3BCD-46C5-9D4D-F625B075BD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6AF458-6DD5-4BBC-85A4-306764430711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6AF458-6DD5-4BBC-85A4-306764430711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6AF458-6DD5-4BBC-85A4-306764430711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6AF458-6DD5-4BBC-85A4-306764430711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03AD26CB-4EF2-4CCE-ADFF-3D114E53B927}
+	EndGlobalSection
+EndGlobal

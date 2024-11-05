@@ -1,0 +1,21 @@
+version: '3.2'
+
+services:
+  db:
+    image: mysql:9
+    container_name: b3-digitas-mysql
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db/:/var/lib/mysql/
+    networks:
+      - local
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_PASSWORD: 1234
+      MYSQL_USER: dev
+      MYSQL_DATABASE: b3-digitas-db
+
+networks:
+  local: 

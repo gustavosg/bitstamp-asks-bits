@@ -1,2 +1,0 @@
-# bitstamp-asks-bits
- 
