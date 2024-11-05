@@ -12,3 +12,6 @@ No momento, somente a API PriceSimulator está sendo executada via Docker. O pro
 Para banco de dados, foi utilizado uma instância MySQL. 
 Na aplicação, também há consumo de banco de dados NoSQL, utilizando o CosmosDB;
 
+# Tests
+
+Nem todos os testes estão com status de OK. Há testes comentados, aguardando verificação do problema. 
